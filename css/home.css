@@ -1,0 +1,28 @@
+.menyu{
+    display:block;
+    text-decoration: none;
+    margin: 0px;
+    padding:0;
+}
+ ul,li{
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+    background-color: #5F6F52;
+}
+a{
+    display: inline-block;
+    margin: 0;
+    padding: 15px;
+    text-decoration: none;
+    color:#f5f3e7 ;
+}
+a:hover{
+    background-color: #A9B388;
+}
+h1{
+    color: rgb(10, 9, 9);
+}
+h3{
+    color: rgb(10, 9, 9);
+}
