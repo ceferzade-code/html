@@ -7,7 +7,6 @@ p a{
 }
 p{
     display: inline;
-  text-align: inherit;
 }
 p a:hover{
     background-color: rgb(50, 50, 172);
