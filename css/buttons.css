@@ -1,0 +1,26 @@
+p a{
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgb(26, 26, 121);
+    color: rgb(243, 238, 238);
+}
+p{
+    display: inline;
+  text-align: inherit;
+}
+p a:hover{
+    background-color: rgb(50, 50, 172);
+}
+.danger{
+    background-color:#DA0C81;
+}
+.success{
+    background-color: #99B080;
+}
+.warning{
+    background-color: #F9B572;
+}
+.info{
+    background-color: #5FBDFF;
+}
