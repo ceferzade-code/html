@@ -1,0 +1,12 @@
+
+.ulclass{
+    background-color: rgb(14, 22, 92);
+    color: white;
+    border-radius: 12px;
+}
+.liclass{
+    background-color: rgb(52, 52, 231);
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+}

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabls</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/tables.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menyu">
+                <li><a href="end.html">Home</a></li>
+                </li><a href="buttons.html">Buttons</a></li>
+                </li><a href="images.html">Images</a></li>
+                </li><a href="tables.html">Tables</a></li>
+                </li><a href="lists.html">Lists</a></li>
+                </li><a href="iframes.html">Iframes</a></li>
+                </li><a href="">Forms</a></li>
+                </li><a href="">Layouts</a></li>
+                </li><a href="">Menyus</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Introduse your data with well desugned Tables!</h1>
+    <h3>Vertical table!</h3>
+    <table>
+        <tr class="th">
+            <th colspan="2" class="tablename ">Table Name</th>
+            <!--<th></th>-->
+            <th colspan="12">2023</th>
+            <!-- <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>-->
+        </tr>
+        <tr class="th">
+            <th colspan="2">Seasons:</th>
+            <!-- <th></th>-->
+            <th colspan="2">Winter</th>
+            <!--<th></th>-->
+            <th colspan="3">Spring</th>
+            <!-- <th></th>
+        <th></th>-->
+            <th colspan="3">Summer</th>
+            <!--<th></th>
+        <th></th>-->
+            <th colspan="3">Autumn</th>
+            <!--<th></th>
+        <th></th>-->
+            <th>Winter</th>
+        </tr>
+        <tr class="th">
+            <th class="nname ">N</th>
+            <th>Name</th>
+            <th>Jan</th>
+            <th>Feb</th>
+            <th>Mar</th>
+            <th>Apr</th>
+            <th>May</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Aug</th>
+            <th>Sep</th>
+            <th>Oct</th>
+            <th>Nov</th>
+            <th>Dec</th>
+        </tr>
+        <tr class="person">
+            <td>1</td>
+            <td>Person</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr class="person">
+            <td>2</td>
+            <td>Person</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr class="person">
+            <td>3</td>
+            <td>Person</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr class="summary">
+            <td colspan="2">Monthly summay:</td>
+            <!--<td></td>-->
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+        </tr>
+        <tr class="summary">
+            <td colspan="2">Seasonal summary:</td>
+            <!--<td></td>-->
+            <td colspan="2">600</td>
+            <!--<td></td>-->
+            <td colspan="3">900</td>
+            <!--<td></td>
+            <td></td>-->
+            <td colspan="3">900</td>
+            <!--<td></td>
+            <td></td>-->
+            <td colspan="3">900</td>
+            <!--<td></td>
+            <td></td>-->
+            <td>300</td>
+        </tr>
+        <tr class="summary">
+            <td colspan="2">Yearly summary:</td>
+            <!--<td></td>-->
+            <td colspan="12">3600</td>
+            <!--<td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>-->
+        </tr>
+    </table>
+
+    <h3>Horizontal table!</h3>
+
+    <table>
+
+        <colgroup>
+            <col span="3" style="background-color: rgb(54, 14, 92);">
+            <col span="3" style="background-color:rgb(90, 6, 168) ;">
+            <col span="3" style="background-color: rgb(156, 111, 12);">
+        </colgroup>
+        <tr>
+            <th colspan="3">Table name</th>
+            <!--<th></th>
+            <th></th>-->
+            <th>Person</th>
+            <th>Person</th>
+            <th>Person</th>
+            <th>Monthly</th>
+            <th>Seasonal</th>
+            <th>Yearly</th>
+        </tr>
+        <tr>
+            <th rowspan="12">2023</th>
+            <th rowspan="2">Winter</th>
+            <th>Jan</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <td rowspan="2">600</td>
+            <td rowspan="12">3600</td>
+        </tr>
+        <tr>
+            <!--<th></th>
+            <th></th>-->
+            <th>Feb</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <!--<th></th>
+            <th></th>-->
+
+        </tr>
+        <tr>
+            <!--<th></th>-->
+            <th rowspan="3">Spring</th>
+            <th>Mar</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <td rowspan="3">900</td>
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>
+            <th></th>-->
+            <th>Apr</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>
+            <th></th>-->
+            <th>May</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>-->
+            <th rowspan="3">Summer</th>
+            <th>Jun</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <td rowspan="3">900</td>
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>
+            <th></th>-->
+            <th>jul</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>
+            <th></th>-->
+            <th>Aug</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>-->
+            <th rowspan="3">Autumn</th>
+            <th></th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <td rowspan="3">900</td>
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>
+            <th></th>-->
+            <th>Oct</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>
+            <th></th>-->
+            <th>Nov</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <!--<th></th>-->
+            <th>Winter</th>
+            <th>Dec</th>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>300</td>
+            <td>300</td>
+            <!--<td></td>-->
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>

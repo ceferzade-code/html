@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buttons</title>
+    <title>Forms</title>
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/buttons.css ">
+    <link rel="stylesheet" href="css/forms.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,15 +25,18 @@
             </ul>
         </nav>
     </header>
-    <h1>Buttons with special design!</h1>
-    <p>Telephone and Email!</p> <br> <br>
-    <p><a href="tel:+994507107010">+994 710 70 70</a></p>
-    <p><a href="mailto:isa.ceferzade96@mail.ru">isa.ceferzade96@mail.ru</a></p>
-    <br><br>
-    <p>Danger, Success, Warning and Info!</p><br><br>
-    <p><a href="#" class="danger">Danger</a></p>
-    <p><a href="#" class="success">Success</a></p>
-    <p><a href="#" class="warning">Warning</a></p>
-    <p><a href="#" class="info">Info</a></p>
+    <h1>With forms you collect data form users!</h1>
+    <form action="">
+        <label for="user_name">Your name:(user_name) (box size 40)</label>
+        <br> <input type="text" name="user_name" id="user_name"><br><br>
+        <label for="surname">Your surname: (disabled)</label><br>
+        <input type="text" name="surname" id="surname"><br><br>
+        <label for="email">Your emale: (user_email) (autofocused)</label><br>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="password">Your password: (user_password) (minimum length 4 maximum lenhth 10)</label><br>        <input type="text">
+        <input type="password" name="password" id="password">
+    </form>
+
 </body>
+
 </html>

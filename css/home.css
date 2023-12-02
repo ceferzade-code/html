@@ -20,10 +20,10 @@ a{
 a:hover{
     background-color: #A9B388;
 }
-h1{
-    color: rgb(10, 9, 9);
+h1 h3{
+    color: rgb(112, 41, 41);
 }
 h4{
-    color: rgb(10, 9, 9);
+    color: rgb(12, 10, 10);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

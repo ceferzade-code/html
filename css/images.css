@@ -1,0 +1,16 @@
+img{
+    border-radius: 16px;
+}
+.just{
+    width: 50%;
+}
+.floatright{
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+}
+.floatleft{
+    float: left;
+    margin: 10px;
+}
